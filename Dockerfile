@@ -1,6 +1,6 @@
 FROM openjdk:17-alpine
 
-EXPOSE 8285
+EXPOSE 8761
 
 COPY ./target/service-registry-*.jar service-registry.jar
 
